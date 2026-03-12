@@ -9,6 +9,6 @@ public static void main (String [] args){
     int discountPercentage = sc.nextInt();
      double disc_amt = stud_fee*(discountPercentage/100.0);
     double final_fee = stud_fee-disc_amt;
-    System.out.println("discount amount in iNR : "+ disc_amt+ "The final fee needed to be paid by the student : "+final_fee);
+    System.out.println("discount amount in iNR : "+ disc_amt+ "The final discounted fee needed to be paid by the student : "+final_fee);
 
 }
